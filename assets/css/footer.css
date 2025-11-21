@@ -1,0 +1,242 @@
+/*** 
+
+====================================================================
+	Main Footer
+====================================================================
+
+***/
+
+.main-footer {
+    position: relative;
+    background-color: var(--color-two);
+}
+
+.main-footer.style-two .widgets-section {
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+.main-footer.style-three .widgets-section {
+    margin-top: 0px;
+    padding-top: 200px;
+}
+
+.main-footer_pattern {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-size: cover;
+}
+
+.main-footer .inner-container {
+    position: relative;
+}
+
+.footer-logo {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    position: relative;
+    line-height: 30px;
+    font-size: 16px;
+    padding-right: 30px;
+    color: var(--color-twentytwo);
+}
+
+.footer_socials {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer_socials a {
+    position: relative;
+    margin-right: 15px;
+    font-size: 18px;
+    color: var(--color-twentythree);
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.footer_socials a:hover {
+    color: var(--color-three);
+}
+
+.main-footer .widgets-section {
+    position: relative;
+    margin-top: -200px;
+    padding: 300px 0px 50px;
+}
+
+.footer-title {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: var(--white-color);
+    text-transform: capitalize;
+    font-family: "Outfit", sans-serif;
+}
+
+.footer-column {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer-list {
+    position: relative;
+}
+
+.footer-list li {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.footer-list li:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-list li a {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 28px;
+    color: var(--color-twentytwo);
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+.footer-list li a::before {
+    position: absolute;
+    content: "\f180";
+    left: 0px;
+    top: -2px;
+    font-size: 16px;
+    color: var(--color-three);
+    transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    font-family: "flaticon_natua-icons";
+}
+
+.footer-list li a:hover {
+    color: var(--color-three);
+}
+
+/* News Widget */
+
+.news-widget-block {
+    position: relative;
+    min-height: 110px;
+    padding-left: 100px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(var(--white-color-rgb), 0.20);
+}
+
+.news-widget_image {
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    width: 78px;
+    overflow: hidden;
+}
+
+.news-widget_title {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
+.news-widget_title a {
+    position: relative;
+    color: var(--white-color);
+}
+
+.news-widget_post-date {
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.50;
+    color: var(--white-color);
+}
+
+.news-widget-block:last-child {
+    margin-bottom: 0px;
+    border: none;
+}
+
+.news-widget_title a:hover {
+    color: var(--color-three);
+}
+
+/* Contact List */
+
+.footer-contact_list {
+    position: relative;
+}
+
+.footer-contact_list li {
+    position: relative;
+    line-height: 28px;
+    font-size: 16px;
+    max-width: 274px;
+    min-height: 56px;
+    padding-left: 70px;
+    margin-bottom: 20px;
+    color: var(--white-color);
+}
+
+.footer-contact_list li:first-child {
+    position: relative;
+    color: #b9b9a4;
+}
+
+.footer-contact_list li .icon {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: var(--white-color);
+    font-family: "flaticon_natua-icons";
+    background-color: var(--color-three);
+}
+
+.footer-contact_list li a {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--main-color);
+    font-family: "Outfit", sans-serif;
+}
+
+.footer-bottom {
+    position: relative;
+    margin-top: 0px;
+    border-top: 1px solid rgba(var(--white-color-rgb), 0.20);
+}
+
+.main-footer_copyright {
+    position: relative;
+    font-size: 16px;
+    padding: 30px 0px;
+    text-align: center;
+    color: var(--color-twentyfour);
+}
+
+.footer_column {
+    position: relative;
+    margin-bottom: 30px;
+}
